@@ -3,7 +3,7 @@ class script(object):
 
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
 📚 Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
-🖥 Dᴇᴠᴏʟᴏᴘᴇʀ: <a href=https://t.me/SM_Projects>Spyro</a>
+🖥 Dᴇᴠᴏʟᴏᴘᴇʀ: <a href=https://t.me/Leomc_bot>Leo MC 📈</a>
 📝 Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 📡 DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
 📈 Bᴏᴛ Sᴇʀᴠᴇʀ: NISSAN GTR
@@ -15,7 +15,7 @@ class script(object):
 - source : നോക്കി നോക്കി ഇരുന്നോ ഇപ്പോ കിട്ടും
 
 <b>DEVS:</b>
-- 𝙳𝚎𝚟  <a href=https://t.me/SPYROMOVIES_TG>Spyro</a>"""
+- 𝙳𝚎𝚟  <a href=https://t.me/Leomc_bot>Leo MC</a>"""
 
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
@@ -32,7 +32,7 @@ class script(object):
 
 <code>/batch https://t.me/SM_Projects https://t.me/SM_Projects</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/SM_Projects>Spyro><b>spyro</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/Leomc_bot>📈><b>🗿</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -78,7 +78,7 @@ class script(object):
 ›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁. 
 ›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/SM_Projects>spyro</a>**"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/Leomc_bot>Leo MC</a>**"""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -342,7 +342,7 @@ For any content removal contact admin it will be remove instantly"""
     AUTOAPPROVE_TXT = """Hello!
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.
 This feature is not work in cloned repository 
-Powerd By : @SM_PROJECTS"""
+Powerd By : @Leomc_bot"""
     
 
 
