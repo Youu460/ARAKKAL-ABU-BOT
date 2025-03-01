@@ -6,8 +6,8 @@ class script(object):
 🖥 Dᴇᴠᴏʟᴏᴘᴇʀ: <a href=https://t.me/SM_Projects>Spyro</a>
 📝 Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 📡 DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
-📈 Bᴏᴛ Sᴇʀᴠᴇʀ: Hᴇʀᴜᴋᴜ ᴘᴀɪᴅ
-🗿 Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3"""
+📈 Bᴏᴛ Sᴇʀᴠᴇʀ: NISSAN GTR
+🗿 Bᴜɪʟᴅ Sᴛᴀᴛᴜs: V6"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 -sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ʙᴀsᴇᴅ ᴏɴ ᴇᴠᴀ ᴍᴀʀɪᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ 
