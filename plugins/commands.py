@@ -22,9 +22,9 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/spyrosearch_botgrp')
+            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/spyrosearch_botgrp')
             ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+            InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -38,21 +38,21 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🪄 Aᴅᴅ Tᴏ Mᴇ Gʀᴏᴜᴘ 🪄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
 
-            InlineKeyboardButton('🎥 OTT UPDATES 🎥', url='https://t.me/+rIVicqQ7_FU4ZDU1'),
+            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/+rIVicqQ7_FU4ZDU1'),
 
             InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+SEu-xUKoSPpiOGY1')
 
         ], [
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', callback_data='help'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🔩 Aʙᴏᴜᴛ 🔩', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -97,7 +97,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🪄 Aᴅᴅ Tᴏ Mᴇ Gʀᴏᴜᴘ 🪄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
@@ -109,9 +109,9 @@ async def start(client, message):
 
         ], [
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', callback_data='help'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🔩 Aʙᴏᴜᴛ 🔩', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
