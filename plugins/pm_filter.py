@@ -841,21 +841,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":   
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🪄 Aᴅᴅ Tᴏ Mᴇ Gʀᴏᴜᴘ 🪄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
         ],  [
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
 
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/+Bvz7baHqBOs1ZjI9'),
+            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/filmfactorygroup1'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+mgxD7-7zTC4xMzI1')
+            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/filmfactorygroup1')
 
         ], [
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', callback_data='help'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🔩 Aʙᴏᴜᴛ 🔩', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -947,7 +947,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "disclaimer":
         buttons= [[
-            InlineKeyboardButton(' Admin ', url='https://t.me/SM_Projects')
+            InlineKeyboardButton(' Admin ', url='https://t.me/Leomc_bot')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -960,7 +960,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autoapprove":
         buttons= [[
-            InlineKeyboardButton(' ADD BOT ', url='http://t.me/Spyrosearchbot?startchannel=true')
+            InlineKeyboardButton(' ADD BOT ', url='https://t.me/arakkalabumc_bot?startchannel=true')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -986,7 +986,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ABOUT ME', url='https://t.me/spyrosearchbot_botgrp')
+            InlineKeyboardButton('ABOUT ME', url='https://t.me/Leomc_bot')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
