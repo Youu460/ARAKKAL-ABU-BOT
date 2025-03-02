@@ -86,4 +86,4 @@ groups_broadcast - to broadcast a message to all groups
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
-CREDITS TO  <a href=https://t.me/Mo_Tech_YT>MO TECH</a>
+CREDITS TO  <a href=https://t.me/Leomc_bot>Leo MC</a>
