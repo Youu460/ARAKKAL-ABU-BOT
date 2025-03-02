@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/spyrosearch_botgrp')
+            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/filmfactorygroup1')
             ],[
             InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
@@ -44,9 +44,9 @@ async def start(client, message):
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
 
-            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/+rIVicqQ7_FU4ZDU1'),
+            InlineKeyboardButton('🎙 Oᴛᴛ Uᴘᴅᴀᴛꜱ 🎙', url='https://t.me/filmfactorygroup1'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+SEu-xUKoSPpiOGY1')
+            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/filmfactorygroup1')
 
         ], [
 
@@ -103,9 +103,9 @@ async def start(client, message):
              InlineKeyboardButton('DISCLAIMER', callback_data='disclaimer')
         ],  [
 
-            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/+ww0SQortLsc0YTg1'),
+            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/filmfactorygroup1'),
 
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/+SEu-xUKoSPpiOGY1')
+            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/filmfactorygroup1')
 
         ], [
 
