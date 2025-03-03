@@ -30,9 +30,9 @@ pyroutils.MIN_CHANNEL_ID = -100999999999999
 
 from plugins.webcode import bot_run
 from os import environ
-from aiohttp import web as webserver
-
-PORT_CODE = environ.get("PORT", "8080")
+from aiohttp import web
+from plugins import web_server
+PORT = environ.get("PORT", "8090")
 
 
 class Bot(Client):
@@ -61,22 +61,22 @@ class Bot(Client):
         self.username = '@' + me.username
         logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
         logging.info(LOG_STR)
-        await self.send_message(LOG_CHANNEL, text=f"<b>{me.mention} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ !!</b>")
-        print("Restarting...")
+        await self.send_message(chat_id=LOG_CHANNEL, text="restarted ❤️‍🩹")
 
         tz = pytz.timezone('Asia/Kolkata')
         today = date.today()
         now = datetime.now(tz)
         time = now.strftime("%H:%M:%S %p")
-        client = webserver.AppRunner(await bot_run())
-        await client.setup()
+        
+        app = web.AppRunner(await web_server())
+        await app.setup()
         bind_address = "0.0.0.0"
-        await webserver.TCPSite(client, bind_address,
-        PORT_CODE).start()
+        await web.TCPSite(app, bind_address, PORT).start() 
+        await restart_index(self)
 
     async def stop(self, *args):
         await super().stop()
-        logging.info(f"{me.first_name} is_...  ♻️Restarting...")
+        logging.info("Bot stopped. Bye.")
     
     async def iter_messages(
         self,
