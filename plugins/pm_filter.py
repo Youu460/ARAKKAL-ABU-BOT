@@ -1781,7 +1781,7 @@ async def pm_spoll_choker(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲 𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 \n 𝗣𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝗺𝗼𝘃𝗶𝗲 𝗶𝘀 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗶𝗻 𝗼𝘁𝘁 \n 𝗜𝗳 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗷𝗼𝗶𝗻 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝘀𝗲𝗻𝗱 𝗺𝗼𝘃𝗶𝗲 𝗻𝗮𝗺𝗲 𝘁𝗵𝗲𝗿𝗲\n 𝗮𝗱𝗺𝗶𝗻 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱 𝗶𝘁 𝗮𝗻𝗱 𝗶𝗻𝗳𝗼𝗿𝗺 𝘆𝗼𝘂 \n\n 𝗹𝗶𝗻𝗸 https://t.me/+w0U0kQJBYb0yMjk1")
+        k = await msg.reply("𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲 𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 \n 𝗣𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝗺𝗼𝘃𝗶𝗲 𝗶𝘀 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗶𝗻 𝗼𝘁𝘁 \n 𝗜𝗳 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗷𝗼𝗶𝗻 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝘀𝗲𝗻𝗱 𝗺𝗼𝘃𝗶𝗲 𝗻𝗮𝗺𝗲 𝘁𝗵𝗲𝗿𝗲\n 𝗮𝗱𝗺𝗶𝗻 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱 𝗶𝘁 𝗮𝗻𝗱 𝗶𝗻𝗳𝗼𝗿𝗺 𝘆𝗼𝘂 \n\n 𝗹𝗶𝗻𝗸 https://t.me/+8ij-6V1TGiA1Y2Y1")
         await asyncio.sleep(50)
         await k.delete()
         return
@@ -1829,7 +1829,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲 𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 \n 𝗣𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝗺𝗼𝘃𝗶𝗲 𝗶𝘀 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗶𝗻 𝗼𝘁𝘁 \n 𝗜𝗳 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗷𝗼𝗶𝗻 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝘀𝗲𝗻𝗱 𝗺𝗼𝘃𝗶𝗲 𝗻𝗮𝗺𝗲 𝘁𝗵𝗲𝗿𝗲\n 𝗮𝗱𝗺𝗶𝗻 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱 𝗶𝘁 𝗮𝗻𝗱 𝗶𝗻𝗳𝗼𝗿𝗺 𝘆𝗼𝘂 \n\n 𝗹𝗶𝗻𝗸 https://t.me/+w0U0kQJBYb0yMjk1")
+        k = await msg.reply("𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲 𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 \n 𝗣𝗹𝗲𝗮𝘀𝗲 𝗰𝗵𝗲𝗰𝗸 𝘁𝗵𝗲 𝗺𝗼𝘃𝗶𝗲 𝗶𝘀 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗶𝗻 𝗼𝘁𝘁 \n 𝗜𝗳 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗷𝗼𝗶𝗻 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝘀𝗲𝗻𝗱 𝗺𝗼𝘃𝗶𝗲 𝗻𝗮𝗺𝗲 𝘁𝗵𝗲𝗿𝗲\n 𝗮𝗱𝗺𝗶𝗻 𝘄𝗶𝗹𝗹 𝗮𝗱𝗱 𝗶𝘁 𝗮𝗻𝗱 𝗶𝗻𝗳𝗼𝗿𝗺 𝘆𝗼𝘂 \n\n 𝗹𝗶𝗻𝗸 https://t.me/+8ij-6V1TGiA1Y2Y1")
         await asyncio.sleep(50)
         await k.delete()
         return
