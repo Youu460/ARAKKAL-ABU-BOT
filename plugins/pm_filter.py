@@ -1615,67 +1615,12 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0,
             [InlineKeyboardButton(text="💢 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 💢",url="https://t.me/+Bvz7baHqBOs1ZjI9")]
         )
-    imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
-    TEMPLATE = settings['template']
-    if imdb:
-        cap = TEMPLATE.format(
-            group = message.chat.title,
-            requested = message.from_user.mention,
-            query = search,
-            title = imdb['title'],
-            votes = imdb['votes'],
-            aka = imdb["aka"],
-            seasons = imdb["seasons"],
-            box_office = imdb['box_office'],
-            localized_title = imdb['localized_title'],
-            kind = imdb['kind'],
-            imdb_id = imdb["imdb_id"],
-            cast = imdb["cast"],
-            runtime = imdb["runtime"],
-            countries = imdb["countries"],
-            certificates = imdb["certificates"],
-            languages = imdb["languages"],
-            director = imdb["director"],
-            writer = imdb["writer"],
-            producer = imdb["producer"],
-            composer = imdb["composer"],
-            cinematographer = imdb["cinematographer"],
-            music_team = imdb["music_team"],
-            distributors = imdb["distributors"],
-            release_date = imdb['release_date'],
-            year = imdb['year'],
-            genres = imdb['genres'],
-            poster = imdb['poster'],
-            plot = imdb['plot'],
-            rating = imdb['rating'],
-            url = imdb['url'],
-            **locals()
-        )
-    else:
-        cap = f"<b><i>Hey</i></b> 👋🏻 <b><i>{message.from_user.mention}</i></b>\n\n 🔖 <b><i>Title</i></b> : <b><i>{search}</i></b>\n 📫 <b><i>Your Files is Ready Now</i></b>"
-    if imdb and imdb.get('poster'):
-        try:
-            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(IMDB_DELET_TIME)
-            await hehe.delete()            
-        except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
-            pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))           
-            await asyncio.sleep(IMDB_DELET_TIME)
-            await hmm.delete()            
-        except Exception as e:
-            logger.exception(e)
-            fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(IMDB_DELET_TIME)
-            await fek.delete()
-    else:
-        fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+    cap = f"<b><i>Hey</i></b> 👋🏻 <b><i>{message.from_user.mention}</i></b>\n\n 🔖 <b><i>Title</i></b> : <b><i>{search}</i></b>\n 📫 <b><i>Your Files is Ready Now</i></b>"
+    
+    fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(IMDB_DELET_TIME)
         await fuk.delete()        
-    if spoll:
-        await msg.message.delete()
-
+    
 
 async def pm_AutoFilter(client, msg, pmspoll=False):
     if not pmspoll:
