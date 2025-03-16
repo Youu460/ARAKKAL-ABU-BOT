@@ -27,7 +27,6 @@ async def start(client, message):
             InlineKeyboardButton('🔧 Hᴇʟᴘ 🪛', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
-        await asyncio.sleep(2) 
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(a=message.chat.title, b=message.chat.id, c=message.chat.username, d=total, f=temp.B_LINK, e="Unknown"))       
@@ -58,7 +57,6 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAEN75tnxThkvOObIt5cQZ2MHx77lS082AACjhEAApDGKFaXe6z-g0T26zYE")
-        await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -117,7 +115,6 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAEN75tnxThkvOObIt5cQZ2MHx77lS082AACjhEAApDGKFaXe6z-g0T26zYE")
-        await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
